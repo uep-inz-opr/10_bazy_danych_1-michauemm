@@ -9,7 +9,7 @@ if __name__ == "__main__":
                     celltower data_type INTEGER);''')
 
 
-    with open(filename, 'r') as fin:
+    with open("polaczenia_duze.csv", 'r') as fin:
         reader = csv.reader(fin, delimiter=";")
         #headers = next(reader)
         next(reader, None)
